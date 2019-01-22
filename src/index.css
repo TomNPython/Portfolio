@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+    color: #AC3B69;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.wrapper {
+    color: #123C69;
+    margin-top: 40px;
+}
+
+.wrapper ul li {
+    padding-top: 5px;
+}
+
+#nav {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid;
+}
+
+#nav-links {
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#nav #nav-links li {
+    display: inline;
+    padding: 30px;
+}
+
+@media (max-width: 400px) {
+    #nav #nav-links li {
+        display: flex;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+a {
+    padding: 10px;
+}
+
+.active {
+    background-color: #BAB2B5;
+    border-radius: 5px;
+    color: #AC3B69
+}
+
+a:active {
+    color: #AC3B69;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.grid {
+    display: flex;
+    grid-column-gap: 0;
+    justify-content: center
+}
+
+.grid-item {
+    margin: 20px;
+}
+
+.main-image {
+    border-radius: 50%;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.welcome {
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    object-fit: contain
+}
+
+.row .row-item {
+    display: inline-block;
+    padding: 20px;
+    justify-content: center;
+}
+
+.row img {
+    display: inline-block;
+    max-height: 200px;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 8%;
+}
+
+@media (max-width: 400px) {
+    .row img {
+        display: none;
+    }
+}
+
+.projects-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-grid-item {
+    padding: 5px;
+    margin: 5px;
+    transition: 0.5s
+}
+
+.projects-grid-item:hover {
+    background-color: rgb(165, 158, 160);
+    transform: scale(1.01)
+}
+
+.contact-flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-flex-item {
+    text-align: center;
+    max-width: 300px;
+    max-height: 500px;
+}
+
+.contact-flex-item a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-flex-container img {
+    max-height: 80px;
+    max-width: 80px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#contact-title {
+    text-align: center;
+}
