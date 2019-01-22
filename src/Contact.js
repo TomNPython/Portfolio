@@ -7,15 +7,15 @@ function Contact() {
                 <p style={{ textAlign: 'center' }}>For any freelance or contract work, please contact me through the following sites.</p>
         <div className='contact-flex-container'>
         <h2 className='contact-flex-item'><a href='https://www.linkedin.com/in/tom-nicholson-04429089/'>LinkedIn<br/>
-        <img src='https://image.flaticon.com/icons/svg/124/124011.svg'></img></a></h2>
+        <img src='https://image.flaticon.com/icons/svg/124/124011.svg' alt='LinkedIn Image'></img></a></h2>
         <h2 className='contact-flex-item'><a href='https://github.com/TomNPython'>Github<br/>
-        <img src='https://image.flaticon.com/icons/svg/25/25231.svg'></img></a>
+        <img src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='Github Image'></img></a>
         </h2>
         <h2 className='contact-flex-item'><a href='https://codepen.io/tomnpython'>Codepen<br/>
-        <img src='https://image.flaticon.com/icons/svg/785/785252.svg'></img></a>
+        <img src='https://image.flaticon.com/icons/svg/785/785252.svg' alt='Codepen Image'></img></a>
         </h2>
         <h2 className='contact-flex-item'><a href='https://www.instagram.com/tom.nich/?hl=en'>Instagram<br/>
-        <img src='https://image.flaticon.com/icons/svg/174/174855.svg'></img></a>
+        <img src='https://image.flaticon.com/icons/svg/174/174855.svg' alt='Instagram Image'></img></a>
         </h2>
         </div>
         </div>
