@@ -5,11 +5,11 @@ function About() {
         <div className='wrapper'>
         <div className= 'row'>
         <img src='https://images.unsplash.com/photo-1421749810611-438cc492b581?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'
-        alt='Picture of Essex field'></img>
+        alt='Essex field'></img>
         <img src='https://images.unsplash.com/photo-1535448033526-c0e85c9e6968?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
-        alt='Picture of Edinburgh Castle'></img>
+        alt='Edinburgh Castle'></img>
         <img src='https://images.unsplash.com/photo-1525576998318-b4736ddba6c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=783&q=80'
-        alt='Picture of Ho Chi Minh City skyline'></img>
+        alt='Ho Chi Minh City skyline'></img>
         </div>
         <h3><u>About</u></h3>
         <p>I am a Front End Web Developer originally from Essex, UK and currently 
