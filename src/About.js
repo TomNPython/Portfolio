@@ -20,7 +20,7 @@ function About() {
             Udemy, as well as the advice and support of experienced developers. I have 
             active Github and Codepen profiles showcasing my work. Currently, I am working on 
             improving my skills with JavaScript frameworks, 
-            such as ReactJS, as well as becoming more familiar with NodeJS, 
+            such as ReactJS, as well as becoming more familiar with NodeJS 
             and working with APIs.</p>
         <h3><u>Education</u></h3>
         <ul><li><strong>University of Edinburgh, MA Psychology (2010 - 2014)</strong>

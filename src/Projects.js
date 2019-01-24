@@ -3,9 +3,9 @@ import React from 'react';
 function Projects() {
     return (
         <div className='wrapper'>
-        <p>I have been learning web development for around one year now. During this time I have used
+        <p>I have been learning about web development since early 2018. During this time I have used
             several different languages and frameworks. Below are some of my projects, listed with a 
-            brief description, what I used to build them, and a link to where they are hosted.
+            brief description, any languages or frameworks I used to build them, and a link to where they are hosted.
         </p>
         <div className='projects-grid-container'>
         <div className='projects-grid-item'><h4><a href='https://github.com/TomNPython/ToDoImproved'>To Do List</a></h4>
