@@ -1,15 +1,16 @@
 h1 {
     font-weight: 500;
+    color: rgb(38, 102, 92)
 }
 
 h3 {
     font-weight: 400;
-    color: rgb(43, 65, 88)
+    color: rgb(48, 126, 114)
 }
 
 p {
-    font-weight: 400;
-    color: rgb(46, 72, 100);
+    font-weight: 350;
+    color:rgb(60, 158, 143);
     line-height: 2;
 }
 
