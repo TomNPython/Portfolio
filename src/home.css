@@ -1,0 +1,18 @@
+h1 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 400;
+    color: rgb(43, 65, 88)
+}
+
+p {
+    font-weight: 400;
+    color: rgb(46, 72, 100);
+    line-height: 2;
+}
+
+li {
+    line-height: 2
+}

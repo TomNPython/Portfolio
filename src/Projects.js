@@ -3,10 +3,10 @@ import React from 'react';
 function Projects() {
     return (
         <div className='wrapper'>
-        <h4>I have been learning web development for around one year now. During this time I have used
+        <p>I have been learning web development for around one year now. During this time I have used
             several different languages and frameworks. Below are some of my projects, listed with a 
             brief description, what I used to build them, and a link to where they are hosted.
-        </h4>
+        </p>
         <div className='projects-grid-container'>
         <div className='projects-grid-item'><h4><a href='https://github.com/TomNPython/ToDoImproved'>To Do List</a></h4>
         <p>A basic ToDo list app, with options to add and remove items.</p>
