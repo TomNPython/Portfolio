@@ -1,7 +1,9 @@
 import React from 'react';
+import './Contact.css';
 
 function Contact() {
     return (
+        <div id='contacts-background'>
         <div className='wrapper'>
                 <h2 id='contact-title'><u>Get in Touch!</u></h2>
                 <p style={{ textAlign: 'center' }}>For any freelance or contract work, please contact me through the following sites.</p>
@@ -21,6 +23,7 @@ function Contact() {
         target="_blank" rel="noopener noreferrer">Instagram<br/>
         <img src='https://image.flaticon.com/icons/svg/174/174855.svg' alt='Instagram'></img></a>
         </h2>
+        </div>
         </div>
         </div>
     )

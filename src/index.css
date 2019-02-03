@@ -1,12 +1,13 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: white;
     color: rgb(60, 158, 143);
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
     color: rgb(60, 158, 143);
-    margin-top: 20px;
 }
 
 .wrapper ul li {
@@ -20,6 +21,8 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-bottom: 2px solid;
     color: #4ABDAC;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -45,6 +48,7 @@ body {
     }
 
 }
+
 
 a {
     padding: 10px;
@@ -74,96 +78,4 @@ p {
     font-size: 18px;
 }
 
-.grid {
-    display: flex;
-    grid-column-gap: 0;
-    justify-content: center
-}
 
-.grid-item {
-    margin: 20px;
-}
-
-.main-image {
-    border-radius: 50%;
-    max-height: 100px;
-    max-width: 100px;
-}
-
-.welcome {
-    margin-left: 0;
-    margin-top: 10px;
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-    object-fit: contain
-}
-
-.row .row-item {
-    display: inline-block;
-    padding: 20px;
-    justify-content: center;
-}
-
-.row img {
-    display: inline-block;
-    max-height: 200px;
-    max-width: 300px;
-    padding: 10px;
-    border-radius: 8%;
-}
-
-@media only screen and (max-width: 768px) {
-    .row img {
-        display: none;
-    }
-}
-
-.projects-grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-}
-
-.projects-grid-item {
-    background-color: #faf7f5;
-    padding: 5px;
-    margin: 5px;
-    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-    border-top: 6px solid #4ABDAC;
-    transition: 0.5s
-}
-
-.projects-grid-item:hover {
-    transform: scale(1.01)
-}
-
-.contact-flex-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.contact-flex-item {
-    text-align: center;
-    max-width: 300px;
-    max-height: 500px;
-}
-
-.contact-flex-item a {
-    text-align: center;
-    text-decoration: none;
-}
-
-.contact-flex-container img {
-    max-height: 80px;
-    max-width: 80px;
-    margin-left: 20px;
-    padding: 20px;
-}
-
-#contact-title {
-    text-align: center;
-}

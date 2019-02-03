@@ -1,16 +1,12 @@
 import React from 'react';
+import './About.css';
 
 function About() {
     return (
+        <div id='about-background'>
         <div className='wrapper'>
-        <div className= 'row'>
-        <img src='https://images.unsplash.com/photo-1421749810611-438cc492b581?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'
-        alt='Essex field'></img>
-        <img src='https://images.unsplash.com/photo-1535448033526-c0e85c9e6968?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
-        alt='Edinburgh Castle'></img>
-        <img src='https://images.unsplash.com/photo-1525576998318-b4736ddba6c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=783&q=80'
-        alt='Ho Chi Minh City skyline'></img>
-        </div>
+        <div className= 'grid-container'>
+        <div className='grid-item info'>
         <h3><u>About</u></h3>
         <p>I am a Front End Web Developer originally from Essex, UK and currently 
             living in Ho Chi Minh City, Vietnam. 
@@ -22,6 +18,8 @@ function About() {
             improving my skills with JavaScript frameworks, 
             such as ReactJS, as well as becoming more familiar with NodeJS 
             and working with APIs.</p>
+            </div>
+            <div className='grid-item past'>
         <h3><u>Education</u></h3>
         <ul><li><strong>University of Edinburgh, MA Psychology (2010 - 2014)</strong>
             <ul><li>2:1. Second Class Honours (Upper Division)</li></ul>
@@ -45,6 +43,9 @@ function About() {
 <strong>ILA Vietnam</strong>, Ho Chi Minh City, Vietnam — English Teacher
 2015 - 2017</li>
 </ul>
+        </div>
+        </div>
+        </div>
         </div>
     )
 }
