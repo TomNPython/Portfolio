@@ -28,7 +28,7 @@ function Projects() {
         </p></div>
         <div className='projects-grid-item'><h4><a href='https://github.com/TomNPython/MarkdownPreviewer' 
         target='_blank' rel='noopener noreferrer'><p>Markdown Previewer</p></a></h4>
-        <p>Built for FreeCodeCamps Front End Libraries projects, an app allowing the user to 
+        <p>Built for FreeCodeCamp's Front End Libraries projects, an app allowing the user to 
             preview any markdown text in their browser.</p>
         <p>Made using: <ul><li>ReactJS
             <li>Marked</li>

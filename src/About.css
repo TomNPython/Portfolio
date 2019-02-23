@@ -10,6 +10,17 @@
     padding: 0;
 }
 
+i {
+    font-size: 4rem;
+    padding: 10px;
+}
+
+.skills {
+    display : flex;
+    flex-flow: wrap;
+    padding: 10px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -23,6 +34,7 @@
     margin-left: 1rem;
     color: white;
 }
+
 
 @media only screen and (max-width: 768px) {
 
@@ -46,6 +58,7 @@
 
 .info {
     margin-top: 10px;
+    margin-left: 20px;
     line-height: 2;
 }
 
@@ -55,5 +68,5 @@
 
 .past {
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 20px;
 }

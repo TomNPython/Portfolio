@@ -20,6 +20,18 @@ function About() {
             and working with APIs.</p>
             </div>
             <div className='grid-item past'>
+            <h3><u>Languages/Skills</u></h3>
+            <div class='skills'>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-react-original"></i>
+            <i class="devicon-jquery-plain"></i>
+            <i class="devicon-bootstrap-plain"></i>
+            <i class="devicon-github-plain"></i>
+            <i class="devicon-nodejs-plain"></i>
+            <i class="devicon-mongodb-plain"></i>
+            <i class="devicon-wordpress-plain"></i>
+            </div>
         <h3><u>Education</u></h3>
         <ul><li><strong>University of Edinburgh, MA Psychology (2010 - 2014)</strong>
             <ul><li>2:1. Second Class Honours (Upper Division)</li></ul>
@@ -33,6 +45,7 @@ function About() {
                 <ul><li>Responsive Web Design (300 hrs)</li>
                 <li>Front End Libraries (300 hrs)</li>
                 <li>JavaScript Algorithms and Data Structures (300 hrs)</li></ul></li></ul>
+            <br/>
         <h3><u>Employment</u></h3>
         <ul><li><strong>EMG Education</strong>, Ho Chi Minh City, Vietnam — Primary Teacher
 2018 - PRESENT</li>
