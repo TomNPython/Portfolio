@@ -10,6 +10,11 @@ function Projects() {
             brief description, any languages or frameworks I used to build them, and a link to where they are hosted.
         </p>
         <div className='projects-grid-container'>
+        <div className='projects-grid-item'><h4><a href='https://github.com/TomNPython/Hiring-Quiz'
+        target='_blank' rel='noopener noreferrer'><p>Hiring Quiz</p></a></h4>
+        <p>A short quiz about the creator.</p>
+        <p>Made using: <ul><li>JavaScript</li></ul>
+        </p></div>
         <div className='projects-grid-item'><h4><a href='https://github.com/TomNPython/Pollution-App'
         target='_blank' rel='noopener noreferrer'><p>Pollution App</p></a></h4>
         <p>Search for Air Quality Index in cities around the world. Uses the API from https://aqicn.org/api/</p>
@@ -44,7 +49,7 @@ function Projects() {
         <div className='projects-grid-item'><h4><a href='https://github.com/TomNPython/JavaScriptCalculator' 
         target='_blank' rel='noopener noreferrer'><p>Calculator</p></a></h4>
         <p>A basic calculator, allowing the user to perform basic maths.</p>
-        <p>Made using: <ul><li>Pure JavaScript</li></ul>
+        <p>Made using: <ul><li>JavaScript</li></ul>
         </p></div>
         <div className='projects-grid-item'><h4><a href='https://github.com/TomNPython/Pomodoro-Clock' 
         target='_blank' rel='noopener noreferrer'><p>Pomodoro Clock</p></a></h4>
