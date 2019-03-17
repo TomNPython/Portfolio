@@ -19,10 +19,6 @@ function Contact() {
         target="_blank" rel="noopener noreferrer">Codepen<br/>
         <img src='https://image.flaticon.com/icons/svg/785/785252.svg' alt='Codepen'></img></a>
         </h2>
-        <h2 className='contact-flex-item'><a href='https://www.instagram.com/tom.nich/?hl=en' 
-        target="_blank" rel="noopener noreferrer">Instagram<br/>
-        <img src='https://image.flaticon.com/icons/svg/174/174855.svg' alt='Instagram'></img></a>
-        </h2>
         </div>
         </div>
         </div>
