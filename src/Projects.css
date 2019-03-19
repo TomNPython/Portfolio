@@ -9,7 +9,7 @@
 }
 
 .projects-intro {
-    padding: 20px;
+    padding: 40px;
 }
 
 p {
@@ -53,6 +53,15 @@ p:visited {
 .projects-grid-item a:visited {
     text-decoration: none;
     color: white;
+}
+
+a {
+    text-decoration: underline;
+    padding: 0;
+}
+
+h4 {
+    padding: 0px;
 }
 
 a:visited {

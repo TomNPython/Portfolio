@@ -23,6 +23,7 @@ body {
     color: #4ABDAC;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 
@@ -43,7 +44,7 @@ body {
     #nav #nav-links li {
         flex-wrap: wrap;
         font-size: 20px;
-        padding: 0px;
+        padding: 10px;
         margin: 0px;
     }
 
