@@ -8,17 +8,14 @@ function About() {
         <div className= 'grid-container'>
         <div className='grid-item info'>
         <h3>About</h3>
-        <p class='about-me'>I am a Web Developer originally from Essex, UK and currently 
-            living in Ho Chi Minh City, Vietnam. 
-            Since graduating from University, I worked around the world as an 
+        <p class='about-me'>I am a Web Developer originally from the UK and currently 
+            living in Vietnam. 
+            Since graduating from University, I have worked around the world as an 
             English Teacher and have now moved into web development. 
-            I am self taught, using online courses including FreeCodeCamp, Codecademy, 
-            Udemy, as well as the advice and support of experienced developers. I began by teaching myself
-            the basics of front end development (HTML, CSS, JavaScript), then focusing on specific frameworks
-             (eg. ReactJS), and have recently started to work with back end languages (e.g. NodeJS) as well. 
-             I have active
-             Github and Codepen profiles showcasing my work, 
-            and am currently teaching myself more about the MERN stack to further develop my skills.</p>
+            I have experience working alone on personal projects, as well as with experienced developers 
+            on large scale group tasks. 
+            I am keen to improve my skills and have an active Github profile on which I aim to display 
+            the best of my abilities.</p>
             </div>
             <div className='grid-item past'>
             <h3>Languages/Skills</h3>
@@ -33,6 +30,8 @@ function About() {
             <i class="devicon-mongodb-plain"></i>
             <i class="devicon-wordpress-plain"></i>
             </div>
+            </div>
+            <div class='grid-item'>
         <h3>Education</h3>
         <ul><li><strong>University of Edinburgh, MA Psychology (2010 - 2014)</strong>
             <ul><li>2:1. Second Class Honours (Upper Division)</li></ul>
@@ -48,8 +47,10 @@ function About() {
                 <li>JavaScript Algorithms and Data Structures (300 hrs)</li></ul></li></ul>
             <br/>
         <h3>Employment</h3>
-        <ul><li><strong>EMG Education</strong>, Ho Chi Minh City, Vietnam — Primary Teacher
-2018 - PRESENT</li>
+        <ul>
+            <li><strong>One on One English</strong>, Ho Chi Minh City, Vietnam - QA Lead Tester + Curriculum Designer 2019</li>
+            <li><strong>EMG Education</strong>, Ho Chi Minh City, Vietnam — Primary Teacher
+2018 - 2019</li>
 <li>
 <strong>British Council</strong>, Barcelona, Spain — English Teacher
 2017-2018</li>
@@ -57,7 +58,7 @@ function About() {
 <strong>ILA Vietnam</strong>, Ho Chi Minh City, Vietnam — English Teacher
 2015 - 2017</li>
 </ul>
-        </div>
+</div>
         </div>
         </div>
         </div>

@@ -10,8 +10,9 @@
 
 .contact-flex-container {
     display: flex;
+    margin: 55px;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
 }
 

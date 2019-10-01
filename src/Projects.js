@@ -10,6 +10,12 @@ function Projects() {
             brief description, any languages or frameworks I used to build them, and a link to where they are hosted.
         </p>
         <div className='projects-grid-container'>
+        <div className='projects-grid-item'><h4><a href='https://www.rachelemoran.com' 
+        target='_blank' rel='noopener noreferrer'><p>Academic Website</p> </a></h4>
+        <p>Full professional academic website designed for a client.</p>
+        <p>Made using: <ul><li>Wordpress</li>
+        <li>Elementor</li></ul>
+        </p></div>
         <div className='projects-grid-item'><h4><a href='https://github.com/TomNPython/Hiring-Quiz'
         target='_blank' rel='noopener noreferrer'><p>Hiring Quiz</p></a></h4>
         <p>A short quiz about the creator.</p>
@@ -24,12 +30,6 @@ function Projects() {
         target='_blank' rel='noopener noreferrer'><p>To Do List</p></a></h4>
         <p>A basic ToDo list app, with options to add and remove items.</p>
         <p>Made using: <ul><li>ReactJS</li></ul>
-        </p></div>
-        <div className='projects-grid-item'><h4><a href='https://github.com/TomNPython/IPAddressShower' 
-        target='_blank' rel='noopener noreferrer'><p>IP Address Revealer</p> </a></h4>
-        <p>Uses XHLHTTPRequests and ipinfo.io/json to show the users IP address.</p>
-        <p>Made using: <ul><li>ReactJS</li>
-        <li>HTTP Protocol</li></ul>
         </p></div>
         <div className='projects-grid-item'><h4><a href='https://github.com/TomNPython/MarkdownPreviewer' 
         target='_blank' rel='noopener noreferrer'><p>Markdown Previewer</p></a></h4>
