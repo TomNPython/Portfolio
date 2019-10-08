@@ -19,6 +19,10 @@ function Contact() {
         target="_blank" rel="noopener noreferrer">Codepen<br/>
         <img src='https://image.flaticon.com/icons/svg/785/785252.svg' alt='Codepen'></img></a>
         </h2>
+        <h2 className='contact-flex-item'><a href='https://www.codewars.com/users/TomNPython' 
+        target="_blank" rel="noopener noreferrer">Codewars<br/>
+        <img src='https://alternative.me/icons/codewars.jpg' alt='Codewars'></img></a>
+        </h2>
         </div>
         </div>
         </div>
