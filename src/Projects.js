@@ -1,5 +1,13 @@
 import React from 'react';
 import './Projects.css';
+import mern from './assets/mern.png';
+import erev from './assets/erev.png';
+import guess from './assets/guess.png';
+import myriorama from './assets/myriorama.png';
+import scorers from './assets/scorers.png';
+import pollution from './assets/pollution.png';
+import pronunciation from './assets/pronunciation.png';
+import swapi from './assets/pronunciation.png'
 
 function Projects() {
     return (
@@ -16,7 +24,7 @@ function Projects() {
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/MernTV' 
         target='_blank' rel='noopener noreferrer'><h6>TV Series Tracker</h6>
-        <img src="/assets/mern.png" alt=""/> </a>
+        <img src={mern} alt=""/> </a>
             </div>
         <p>Tracks a user's watched TV series and allows them to rate and review.</p>
         <p>Made using: <ul><li>MongoDB</li>
@@ -27,7 +35,7 @@ function Projects() {
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/Event-Reviewer' 
         target='_blank' rel='noopener noreferrer'><h6>Event Reviewer</h6>
-        <img src="/assets/erev.png" alt=""/> </a>
+        <img src={erev} alt=""/> </a>
             </div>
         <p>App to create, read, update, and delete reviews of recent sporting events.</p>
         <p>Made using: <ul><li>JavaScript</li>
@@ -39,7 +47,7 @@ function Projects() {
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/SwapiCompare' 
         target='_blank' rel='noopener noreferrer'><h6>SWAPI Compare</h6>
-        <img src="/assets/swapi.png" alt=""/> </a>
+        <img src={swapi} alt=""/> </a>
             </div>
         <p>Uses axios calls to the Star Wars API (SWAPI) to compare any character to Luke Skywalker on various metrics.</p>
         <p>Made using: <ul><li>JavaScript</li>
@@ -48,7 +56,7 @@ function Projects() {
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/Pollution-App' 
         target='_blank' rel='noopener noreferrer'><h6>Pollution Tracker</h6>
-        <img src="/assets/pollution.png" alt=""/> </a>
+        <img src={pollution} alt=""/> </a>
             </div>
         <p>App to track the Air Quality Index in cities around the world.</p>
         <p>Made using: <ul><li>JavaScript</li>
@@ -57,7 +65,7 @@ function Projects() {
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/TopScorers' 
         target='_blank' rel='noopener noreferrer'><h6>Top Scorers</h6>
-        <img src="/assets/scorers.png" alt=""/> </a>
+        <img src={scorers} alt=""/> </a>
             </div>
         <p>Makes calls to the football data API to list the top scorers in the English Premier League and Championship.</p>
         <p>Made using: <ul><li>JavaScript</li>
@@ -69,7 +77,7 @@ function Projects() {
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/Myriorama' 
         target='_blank' rel='noopener noreferrer'><h6>Myriorama</h6>
-        <img src="/assets/myriorama.png" alt=""/> </a>
+        <img src={myriorama} alt=""/> </a>
             </div>
         <p>Inspired by the eponymous chapter in Phillip Pullman's <em>'The Secret Commonwealth'</em>, shuffle a deck of cards
             to produce a large mosaic image that tells a story.</p>
@@ -79,7 +87,7 @@ function Projects() {
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/GuessThePicture' 
         target='_blank' rel='noopener noreferrer'><h6>Guess The Picture</h6>
-        <img src="../assets/guess.png" alt=""/> </a>
+        <img src={guess} alt=""/> </a>
             </div>
         <p>A game where the user guesses a blurred image from a series of hints.</p>
         <p>Made using: <ul><li>JavaScript</li>
@@ -88,7 +96,7 @@ function Projects() {
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/PronunciationPractice' 
         target='_blank' rel='noopener noreferrer'><h6>Video Image Recorder</h6>
-        <img src="/assets/pronunciation.png" alt=""/> </a>
+        <img src={pronunciation} alt=""/> </a>
             </div>
         <p>App to record images of a user saying an English language tongue twister.</p>
         <p>Made using: <ul><li>JavaScript</li>

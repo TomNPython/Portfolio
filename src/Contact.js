@@ -1,5 +1,7 @@
 import React from 'react';
 import './Contact.css';
+import github from './assets/github.png';
+import linkedin from './assets/linkedin.png'
 
 function Contact() {
     return (
@@ -19,9 +21,9 @@ function Contact() {
                     <div className="social">
                             <div className="divider"></div>
                             <a href="https://www.linkedin.com/in/tom-nicholson-04429089/" target='_blank' rel='noopener noreferrer'>
-                                <img src="/assets/linkedin.png" alt="linkedin link"/></a>
+                                <img src={linkedin} alt="linkedin link"/></a>
                             <a href="https://github.com/TomNPython" target='_blank' rel='noopener noreferrer'>
-                                <img src="/assets/github.png" alt="github link"/></a>
+                                <img src={github} alt="github link"/></a>
                         </div>
         </div>
         </div>
