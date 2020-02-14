@@ -79,7 +79,7 @@ function Projects() {
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/GuessThePicture' 
         target='_blank' rel='noopener noreferrer'><h6>Guess The Picture</h6>
-        <img src="/assets/guess.png" alt=""/> </a>
+        <img src="../assets/guess.png" alt=""/> </a>
             </div>
         <p>A game where the user guesses a blurred image from a series of hints.</p>
         <p>Made using: <ul><li>JavaScript</li>
