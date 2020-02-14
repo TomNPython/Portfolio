@@ -9,6 +9,7 @@ body {
 
 .wrapper {
     color: rgb(60, 158, 143);
+    width: 100vw
 }
 
 .wrapper ul li {

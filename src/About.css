@@ -16,7 +16,9 @@ h3 {
 }
 
 .about-me {
-    margin-right: 15px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto
 }
 
 i {
@@ -83,4 +85,18 @@ i {
 
 .about-links {
     color: white
+}
+
+.resume-link {
+    background-color: rgba(39, 99, 90, 0.8);
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.resume-link a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px
 }

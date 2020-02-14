@@ -18,6 +18,9 @@ function About() {
             , <a class='about-links' href='https://codepen.io/tomnpython'>Codepen</a>, 
             and <a class='about-links' href='https://www.codewars.com/users/TomNPython'>Codewars</a> profiles on which I aim to display 
             the best of my abilities.</p>
+            <button className='resume-link'>
+                <a href='ThomasNicholson_CV.pdf' download>Download CV</a>
+            </button>
             </div>
             <div className='grid-item past'>
             <h3>Languages/Skills</h3>
@@ -32,35 +35,7 @@ function About() {
             <i class="devicon-mongodb-plain"></i>
             <i class="devicon-wordpress-plain"></i>
             </div>
-            </div>
-            <div class='grid-item'>
-        <h3>Education</h3>
-        <ul><li><strong>University of Edinburgh, MA Psychology (2010 - 2014)</strong>
-            <ul><li>2:1. Second Class Honours (Upper Division)</li></ul>
-            </li>
-            <br/>
-            <li><strong>Basil Paterson College, Certificate in English Language Teaching 
-                to Adults - CELTA (2014)</strong>
-                </li>
-                <br/>
-            <li><strong>FreeCodeCamp - Various Courses (2018)</strong>
-                <ul><li>Responsive Web Design (300 hrs)</li>
-                <li>Front End Libraries (300 hrs)</li>
-                <li>JavaScript Algorithms and Data Structures (300 hrs)</li></ul></li></ul>
-            <br/>
-        <h3>Employment</h3>
-        <ul>
-            <li><strong>One on One English</strong>, Ho Chi Minh City, Vietnam - QA Lead Tester + Curriculum Designer 2019</li>
-            <li><strong>EMG Education</strong>, Ho Chi Minh City, Vietnam — Primary Teacher
-2018 - 2019</li>
-<li>
-<strong>British Council</strong>, Barcelona, Spain — English Teacher
-2017-2018</li>
-<li>
-<strong>ILA Vietnam</strong>, Ho Chi Minh City, Vietnam — English Teacher
-2015 - 2017</li>
-</ul>
-</div>
+            </div>        
         </div>
         </div>
         </div>
