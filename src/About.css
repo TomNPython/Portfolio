@@ -84,7 +84,13 @@ i {
 }
 
 .about-links {
-    color: white
+    color: white;
+    padding: 0
+}
+
+.about-links:hover {
+    color: rgba(90, 240, 217, 0.8);
+    text-decoration: underline;
 }
 
 .resume-link {
@@ -93,10 +99,15 @@ i {
     padding: 15px;
     border: 1px solid white;
     border-radius: 20px;
+    text-decoration: underline;
 }
 
 .resume-link a {
     color: white;
     font-weight: bold;
     font-size: 16px
+}
+
+.resume-link:hover {
+    background-color: rgba(45, 114, 104, 0.8)
 }

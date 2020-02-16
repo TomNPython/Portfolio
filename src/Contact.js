@@ -8,7 +8,8 @@ function Contact() {
         <div id='contacts-background'>
         <div className='wrapper'>
                 <h2 id='contact-title'><u>Get in Touch!</u></h2>
-                <p style={{ textAlign: 'center' }}>For any freelance or contract work, please contact me through the following sites.</p>
+                <p style={{ textAlign: 'center' }}>For any freelance or contract work, please contact me through the form below and
+                I will get back to you as soon as possible.</p>
                     <div class="form-style-6">
                         <form action='https://usebasin.com/f/17597fa9b9fc' method='POST'>
                             <legend>Contact:</legend>

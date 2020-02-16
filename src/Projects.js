@@ -15,9 +15,9 @@ function Projects() {
         <div className='wrapper'>
         <p className='projects-header'><a href='#full-stack-projects'>Full Stack Projects</a> | <a href='#api-projects'>
             API Based Projects</a> | <a href='#front-end-projects'>Front End Projects</a></p>
-        <p className='projects-intro'>I have been learning about web development since early 2018. During this time I have used
-            several different languages and frameworks. Below are some of my projects, listed with a 
-            brief description, any languages or frameworks I used to build them, and a link to where they are hosted.
+        <p className='projects-intro'>I have been studying web development since early 2018. During this time I have created projects
+            using multiple languages and frameworks. Some of my most recent projects can be found below, listed with a 
+            brief description, what they were built with, and a link to their Github repositories.
         </p>
         <h2  id='full-stack-projects'>Full Stack Projects</h2>
         <div className='projects-grid-container'>
