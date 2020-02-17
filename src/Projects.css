@@ -71,7 +71,7 @@ h6 {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 5px;
     margin: 5px;
-    width: 530px;
+    width: 630px;
     box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
     border-top: 6px solid #4ABDAC;
     transition: 0.5s;
@@ -103,9 +103,9 @@ h6 {
 }
 
 .projects-grid-item img {
-    border: 1px solid #fff;
+    border: 2px solid rgba(74, 189, 172, 0.8);
     border-radius: 5px;
-    margin: 10px;
+    margin: 10px auto;
     display: block;
 }
 

@@ -7,7 +7,9 @@ import myriorama from './assets/myriorama.png';
 import scorers from './assets/scorers.png';
 import pollution from './assets/pollution.png';
 import pronunciation from './assets/pronunciation.png';
-import swapi from './assets/pronunciation.png'
+import swapi from './assets/swapi.png';
+import americanizer from './assets/americanizer.png';
+import heatmap from './assets/heatmap.png'
 
 function Projects() {
     return (
@@ -101,6 +103,24 @@ function Projects() {
         <p>App to record images of a user saying an English language tongue twister.</p>
         <p>Made using: <ul><li>JavaScript</li>
         <li>WebRTC</li></ul>
+        </p></div>
+        <div className='projects-grid-item'>
+            <div><a href='https://www.github.com/TomNPython/PronunciationPractice' 
+        target='_blank' rel='noopener noreferrer'><h6>AmericaniZer</h6>
+        <img src={americanizer} alt=""/> </a>
+            </div>
+        <p>Enter any sentence in UK English to have it converted to US English.</p>
+        <p>Made using: <ul><li>JavaScript</li></ul>
+        </p></div>
+        <div className='projects-grid-item'>
+            <div><a href='https://www.github.com/TomNPython/PronunciationPractice' 
+        target='_blank' rel='noopener noreferrer'><h6>Productivity Heatmaps</h6>
+        <img src={heatmap} alt=""/> </a>
+            </div>
+        <p>Multiple heatmaps detailing the work I have done day by day over the last few months. Also allows
+            the user to create their own heatmap.
+        </p>
+        <p>Made using: <ul><li>JavaScript</li></ul>
         </p></div>
         </div>
         </div>
