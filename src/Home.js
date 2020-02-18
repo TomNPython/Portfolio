@@ -1,5 +1,9 @@
 import React from 'react';
 import './home.css';
+import linkedin from './assets/linkedin.png'
+import github from './assets/github.png'
+import codepen from './assets/codepen.png'
+import email from './assets/email.png'
 
 function Home() {
     return (
@@ -12,6 +16,17 @@ function Home() {
         <h1>Thomas Nicholson</h1>
         <h3 id='subtitle'><em>Web Developer</em></h3>
         <h4>Welcome to my portfolio! Click the links above to check out my skills and projects.</h4>
+        <div className="welcome-social">
+                            <div className="welcome-divider"></div>
+                            <a href="https://www.linkedin.com/in/tom-nicholson-04429089/" target='_blank' rel='noopener noreferrer'>
+                                <img className='welcome-social' src={linkedin} alt="linkedin link"/></a>
+                            <a href="https://github.com/TomNPython" target='_blank' rel='noopener noreferrer'>
+                                <img className='welcome-social' src={github} alt="github link"/></a>                      
+                            <a href="https://codepen.io/tomnpython" target='_blank' rel='noopener noreferrer'>
+                                <img className='welcome-social' src={codepen} alt="codepen link"/></a>
+                            <a href="/Contact">
+                                <img className='welcome-social' src={email} alt="contact link"/></a>
+                        </div>
         </div>
         </div>
         </div>
