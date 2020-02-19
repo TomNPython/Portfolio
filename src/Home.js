@@ -24,7 +24,7 @@ function Home() {
                                 <img className='welcome-social' src={github} alt="github link"/></a>                      
                             <a href="https://codepen.io/tomnpython" target='_blank' rel='noopener noreferrer'>
                                 <img className='welcome-social' src={codepen} alt="codepen link"/></a>
-                            <a href="/Contact">
+                            <a href="/Portfolio/Contact">
                                 <img className='welcome-social' src={email} alt="contact link"/></a>
                         </div>
         </div>
@@ -35,3 +35,6 @@ function Home() {
 }
 
 export default Home
+
+
+// FIX CONTACT LINK /PORTFOLIO/CONTACT does it work?
