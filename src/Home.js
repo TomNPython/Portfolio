@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import { NavLink } from 'react-router-dom'
 import linkedin from './assets/linkedin.png'
 import github from './assets/github.png'
 import codepen from './assets/codepen.png'
@@ -24,8 +25,8 @@ function Home() {
                                 <img className='welcome-social' src={github} alt="github link"/></a>                      
                             <a href="https://codepen.io/tomnpython" target='_blank' rel='noopener noreferrer'>
                                 <img className='welcome-social' src={codepen} alt="codepen link"/></a>
-                            <a href="/Portfolio/Contact">
-                                <img className='welcome-social' src={email} alt="contact link"/></a>
+                            <NavLink to="/Contact">
+                                <img className='welcome-social' src={email} alt="contact link"/></NavLink>
                         </div>
         </div>
         </div>
