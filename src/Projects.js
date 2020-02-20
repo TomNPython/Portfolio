@@ -29,10 +29,11 @@ function Projects() {
         <img src={mern} alt=""/> </a>
             </div>
         <p>Tracks a user's watched TV series and allows them to rate and review.</p>
-        <p>Made using: <ul><li>MongoDB</li>
+        <p>Made using: <ul className='long-list'><li>MongoDB</li>
         <li>Express</li>
         <li>React</li>
         <li>NodeJS</li></ul>
+        <a href='https://www.github.com/TomNPython/MernTV' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
         </p></div>
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/Event-Reviewer' 
@@ -42,6 +43,7 @@ function Projects() {
         <p>App to create, read, update, and delete reviews of recent sporting events.</p>
         <p>Made using: <ul><li>JavaScript</li>
         <li>PostgresQL</li></ul>
+        <a href='https://www.github.com/TomNPython/Event-Reviewer' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
         </p></div>
         </div>
         <h2 id='api-projects'>API Based Projects</h2>
@@ -54,6 +56,8 @@ function Projects() {
         <p>Uses axios calls to the Star Wars API (SWAPI) to compare any character to Luke Skywalker on various metrics.</p>
         <p>Made using: <ul><li>JavaScript</li>
         <li>Axios</li></ul>
+        <a href='https://www.github.com/TomNPython/SwapiCompare' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/SwapiCompare/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
         </p></div>
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/Pollution-App' 
@@ -63,6 +67,8 @@ function Projects() {
         <p>App to track the Air Quality Index in cities around the world.</p>
         <p>Made using: <ul><li>JavaScript</li>
         <li>Fetch API</li></ul>
+        <a href='https://www.github.com/TomNPython/Pollution-App' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/Pollution-App/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
         </p></div>
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/TopScorers' 
@@ -72,6 +78,8 @@ function Projects() {
         <p>Makes calls to the football data API to list the top scorers in the English Premier League and Championship.</p>
         <p>Made using: <ul><li>JavaScript</li>
         <li>Ajax</li></ul>
+        <a href='https://www.github.com/TomNPython/TopScorers' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/TopScorers/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
         </p></div>
         </div>
         <h2  id='front-end-projects'>Front End Projects</h2>
@@ -85,6 +93,8 @@ function Projects() {
             to produce a large mosaic image that tells a story.</p>
         <p>Made using: <ul><li>Javascript</li>
         </ul>
+        <a href='https://www.github.com/TomNPython/Myriorama' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/Myriorama/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
         </p></div>
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/GuessThePicture' 
@@ -94,6 +104,8 @@ function Projects() {
         <p>A game where the user guesses a blurred image from a series of hints.</p>
         <p>Made using: <ul><li>JavaScript</li>
         </ul>
+        <a href='https://www.github.com/TomNPython/GuessThePicture' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/GuessThePicture/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
         </p></div>
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/PronunciationPractice' 
@@ -103,17 +115,21 @@ function Projects() {
         <p>App to record images of a user saying an English language tongue twister.</p>
         <p>Made using: <ul><li>JavaScript</li>
         <li>WebRTC</li></ul>
+        <a href='https://www.github.com/TomNPython/PronunciationPractice' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/PronunciationPractice/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
         </p></div>
         <div className='projects-grid-item'>
-            <div><a href='https://www.github.com/TomNPython/PronunciationPractice' 
+            <div><a href='https://www.github.com/TomNPython/AmericaniZer' 
         target='_blank' rel='noopener noreferrer'><h6>AmericaniZer</h6>
         <img src={americanizer} alt=""/> </a>
             </div>
         <p>Enter any sentence in UK English to have it converted to US English.</p>
         <p>Made using: <ul><li>JavaScript</li></ul>
+        <a href='https://www.github.com/TomNPython/AmericaniZer' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/AmericaniZer/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
         </p></div>
         <div className='projects-grid-item'>
-            <div><a href='https://www.github.com/TomNPython/PronunciationPractice' 
+            <div><a href='https://www.github.com/TomNPython/ProjectsHeatmap' 
         target='_blank' rel='noopener noreferrer'><h6>Productivity Heatmaps</h6>
         <img src={heatmap} alt=""/> </a>
             </div>
@@ -121,6 +137,8 @@ function Projects() {
             the user to create their own heatmap.
         </p>
         <p>Made using: <ul><li>JavaScript</li></ul>
+        <a href='https://www.github.com/TomNPython/ProjectsHeatmap' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/ProjectsHeatmap/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
         </p></div>
         </div>
         </div>

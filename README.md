@@ -1,6 +1,6 @@
 <h2>Portfolio</h2>
 
-<p> This is my portfolio showcasing my most recent projects. It is intended to give potential employers an insight into my skills and what I can bring to an organisation.<p/>
+<p> This is my portfolio showcasing my most recent projects. It is intended to give potential employers an insight into my skills and what I can bring to an organisation.</p>
   
 <p>This portfolio was built using ReactJS with ReactRouter for navigation.</p>
 
