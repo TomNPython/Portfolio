@@ -14,7 +14,7 @@ function About() {
             English Teacher and have now moved into web development. 
             I have experience working alone on personal projects, as well as with experienced developers 
             on large scale group tasks. 
-            I am keen to improve my skills and have active <a class='about-links' href='https://github.io/tomnpython'>Github</a>
+            I am keen to improve my skills and have active <a className='about-links' href='https://github.io/tomnpython'>Github</a>
             , <a class='about-links' href='https://codepen.io/tomnpython'>Codepen</a>, 
             and <a class='about-links' href='https://www.codewars.com/users/TomNPython'>Codewars</a> profiles on which I aim to display 
             the best of my abilities.</p>

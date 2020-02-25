@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+
 import mern from './assets/mern.png';
 import erev from './assets/erev.png';
 import guess from './assets/guess.png';
@@ -26,7 +27,8 @@ function Projects() {
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/MernTV' 
         target='_blank' rel='noopener noreferrer'><h6>TV Series Tracker</h6>
-        <img src={mern} alt=""/> </a>
+        <img src={mern}  alt=""/>
+         </a>
             </div>
         <p>Tracks a user's watched TV series and allows them to rate and review.</p>
         <p>Made using: <ul className='long-list'><li>MongoDB</li>
