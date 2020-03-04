@@ -19,7 +19,7 @@ function About() {
             and <a class='about-links' href='https://www.codewars.com/users/TomNPython'>Codewars</a> profiles on which I aim to display 
             the best of my abilities.</p>
             <button className='resume-link'>
-                <a href='ThomasNicholson_CV.pdf' download>Download CV</a>
+                <a href='ThomasNicholson_CV.pdf' download><i class='fa fa-download fa-sm' aria-hidden="true" ></i>Download CV</a>
             </button>
             </div>
             <div className='grid-item past'>
