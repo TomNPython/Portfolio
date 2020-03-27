@@ -138,7 +138,10 @@ function Projects() {
         <p>Multiple heatmaps detailing the work I have done day by day over the last few months. Also allows
             the user to create their own heatmap.
         </p>
-        <p>Made using: <ul><li>JavaScript</li></ul>
+        <p>Made using: <ul>
+            <li>JavaScript</li>
+            <li>Anychart</li>
+                    </ul>
         <a href='https://www.github.com/TomNPython/ProjectsHeatmap' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
         <a href='https://tomnpython.github.io/ProjectsHeatmap/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
         </p></div>

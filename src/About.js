@@ -16,6 +16,7 @@ function About() {
             on large scale group tasks. 
             I am keen to improve my skills and have active <a className='about-links' href='https://github.io/tomnpython'>Github</a>
             , <a class='about-links' href='https://codepen.io/tomnpython'>Codepen</a>, 
+            <a class='about-links' href='https://www.hackerrank.com/tom_nicholson101'> HackerRank </a>
             and <a class='about-links' href='https://www.codewars.com/users/TomNPython'>Codewars</a> profiles on which I aim to display 
             the best of my abilities.</p>
             <button className='resume-link'>
