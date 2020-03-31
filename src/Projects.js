@@ -16,75 +16,15 @@ function Projects() {
     return (
         <div id='projects-background'>
         <div className='wrapper'>
-        <p className='projects-header'><a href='#full-stack-projects'>Full Stack Projects</a> | <a href='#api-projects'>
-            API Based Projects</a> | <a href='#front-end-projects'>Front End Projects</a></p>
+        <p className='projects-header'><a href='#front-end-projects'>Front End Projects</a>|  
+        <a href='#api-projects'>
+            API Based Projects</a>| 
+            <a href='#full-stack-projects'>Full Stack Projects</a></p>
         <p className='projects-intro'>I have been studying web development since early 2018. During this time I have created projects
             using multiple languages and frameworks. Some of my most recent projects can be found below, listed with a 
             brief description, what they were built with, and a link to their Github repositories.
         </p>
-        <h2  id='full-stack-projects'>Full Stack Projects</h2>
-        <div className='projects-grid-container'>
-        <div className='projects-grid-item'>
-            <div><a href='https://www.github.com/TomNPython/MernTV' 
-        target='_blank' rel='noopener noreferrer'><h6>TV Series Tracker</h6>
-        <img src={mern}  alt=""/>
-         </a>
-            </div>
-        <p>Tracks a user's watched TV series and allows them to rate and review.</p>
-        <p>Made using: <ul className='long-list'><li>MongoDB</li>
-        <li>Express</li>
-        <li>React</li>
-        <li>NodeJS</li></ul>
-        <a href='https://www.github.com/TomNPython/MernTV' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
-        </p></div>
-        <div className='projects-grid-item'>
-            <div><a href='https://www.github.com/TomNPython/Event-Reviewer' 
-        target='_blank' rel='noopener noreferrer'><h6>Event Reviewer</h6>
-        <img src={erev} alt=""/> </a>
-            </div>
-        <p>App to create, read, update, and delete reviews of recent sporting events.</p>
-        <p>Made using: <ul><li>JavaScript</li>
-        <li>PostgresQL</li></ul>
-        <a href='https://www.github.com/TomNPython/Event-Reviewer' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
-        </p></div>
-        </div>
-        <h2 id='api-projects'>API Based Projects</h2>
-        <div className="projects-grid-container">
-        <div className='projects-grid-item'>
-            <div><a href='https://www.github.com/TomNPython/SwapiCompare' 
-        target='_blank' rel='noopener noreferrer'><h6>SWAPI Compare</h6>
-        <img src={swapi} alt=""/> </a>
-            </div>
-        <p>Uses axios calls to the Star Wars API (SWAPI) to compare any character to Luke Skywalker on various metrics.</p>
-        <p>Made using: <ul><li>JavaScript</li>
-        <li>Axios</li></ul>
-        <a href='https://www.github.com/TomNPython/SwapiCompare' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
-        <a href='https://tomnpython.github.io/SwapiCompare/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
-        </p></div>
-        <div className='projects-grid-item'>
-            <div><a href='https://www.github.com/TomNPython/Pollution-App' 
-        target='_blank' rel='noopener noreferrer'><h6>Pollution Tracker</h6>
-        <img src={pollution} alt=""/> </a>
-            </div>
-        <p>App to track the Air Quality Index in cities around the world.</p>
-        <p>Made using: <ul><li>JavaScript</li>
-        <li>Fetch API</li></ul>
-        <a href='https://www.github.com/TomNPython/Pollution-App' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
-        <a href='https://tomnpython.github.io/Pollution-App/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
-        </p></div>
-        <div className='projects-grid-item'>
-            <div><a href='https://www.github.com/TomNPython/TopScorers' 
-        target='_blank' rel='noopener noreferrer'><h6>Top Scorers</h6>
-        <img src={scorers} alt=""/> </a>
-            </div>
-        <p>Makes calls to the football data API to list the top scorers in the English Premier League and Championship.</p>
-        <p>Made using: <ul><li>JavaScript</li>
-        <li>Ajax</li></ul>
-        <a href='https://www.github.com/TomNPython/TopScorers' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
-        <a href='https://tomnpython.github.io/TopScorers/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
-        </p></div>
-        </div>
-        <h2  id='front-end-projects'>Front End Projects</h2>
+        <h2 id='front-end-projects'>Front End Projects</h2>
         <div className="projects-grid-container">
         <div className='projects-grid-item'>
             <div><a href='https://www.github.com/TomNPython/Myriorama' 
@@ -144,6 +84,68 @@ function Projects() {
                     </ul>
         <a href='https://www.github.com/TomNPython/ProjectsHeatmap' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
         <a href='https://tomnpython.github.io/ProjectsHeatmap/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
+        </p></div>
+        </div>
+        <h2 id='api-projects'>API Based Projects</h2>
+        <div className="projects-grid-container">
+        <div className='projects-grid-item'>
+            <div><a href='https://www.github.com/TomNPython/SwapiCompare' 
+        target='_blank' rel='noopener noreferrer'><h6>SWAPI Compare</h6>
+        <img src={swapi} alt=""/> </a>
+            </div>
+        <p>Uses axios calls to the Star Wars API (SWAPI) to compare any character to Luke Skywalker on various metrics.</p>
+        <p>Made using: <ul><li>JavaScript</li>
+        <li>Axios</li></ul>
+        <a href='https://www.github.com/TomNPython/SwapiCompare' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/SwapiCompare/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
+        </p></div>
+        <div className='projects-grid-item'>
+            <div><a href='https://www.github.com/TomNPython/Pollution-App' 
+        target='_blank' rel='noopener noreferrer'><h6>Pollution Tracker</h6>
+        <img src={pollution} alt=""/> </a>
+            </div>
+        <p>App to track the Air Quality Index in cities around the world.</p>
+        <p>Made using: <ul><li>JavaScript</li>
+        <li>Fetch API</li></ul>
+        <a href='https://www.github.com/TomNPython/Pollution-App' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/Pollution-App/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
+        </p></div>
+        <div className='projects-grid-item'>
+            <div><a href='https://www.github.com/TomNPython/TopScorers' 
+        target='_blank' rel='noopener noreferrer'><h6>Top Scorers</h6>
+        <img src={scorers} alt=""/> </a>
+            </div>
+        <p>Makes calls to the football data API to list the top scorers in the English Premier League and Championship.</p>
+        <p>Made using: <ul><li>JavaScript</li>
+        <li>Ajax</li></ul>
+        <a href='https://www.github.com/TomNPython/TopScorers' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        <a href='https://tomnpython.github.io/TopScorers/' className='code-link' target='_blank' rel='noopener noreferrer'>See Demo</a>
+        </p></div>
+        </div>
+        <h2 id='full-stack-projects'>Full Stack Projects</h2>
+        <div className='projects-grid-container'>
+        <div className='projects-grid-item'>
+            <div><a href='https://www.github.com/TomNPython/MernTV' 
+        target='_blank' rel='noopener noreferrer'><h6>TV Series Tracker</h6>
+        <img src={mern}  alt=""/>
+         </a>
+            </div>
+        <p>Tracks a user's watched TV series and allows them to rate and review.</p>
+        <p>Made using: <ul className='long-list'><li>MongoDB</li>
+        <li>Express</li>
+        <li>React</li>
+        <li>NodeJS</li></ul>
+        <a href='https://www.github.com/TomNPython/MernTV' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
+        </p></div>
+        <div className='projects-grid-item'>
+            <div><a href='https://www.github.com/TomNPython/Event-Reviewer' 
+        target='_blank' rel='noopener noreferrer'><h6>Event Reviewer</h6>
+        <img src={erev} alt=""/> </a>
+            </div>
+        <p>App to create, read, update, and delete reviews of recent sporting events.</p>
+        <p>Made using: <ul><li>JavaScript</li>
+        <li>PostgresQL</li></ul>
+        <a href='https://www.github.com/TomNPython/Event-Reviewer' className='code-link' target='_blank' rel='noopener noreferrer'>See Code</a>
         </p></div>
         </div>
         </div>
